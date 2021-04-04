@@ -22,3 +22,48 @@
 
 ## Contributions
 Checkout our quickstart in [CONTRIBUTING.md](CONTRIBUTING.md) and checkout out individual repositories next.
+
+## Quickstart with Docker
+<b>Prerequisites</b>
+- [Docker](docker.com)
+```zsh
+mkdir Kwetterr && cd Kwetterr
+ 
+git clone https://github.com/kwetterr/docs
+git clone https://github.com/kwetterr/ui
+git clone https://github.com/kwetterr/user-service
+git clone https://github.com/kwetterr/friend-service
+git clone https://github.com/kwetterr/kwat-service
+```
+
+Run all microservices at once.
+```zsh
+docker-compose build
+docker-compose up
+```
+
+## Quickstart with Kubernetes
+<b>Prerequisites</b>
+- [Kubernetes](kubernetes.io)
+
+Build all images.
+```zsh
+
+cd user-service
+docker build -t user-service .
+cd ..
+
+cd kwat-service
+docker build -t kwat-service .
+cd ..
+
+#docker build -t friend-service .
+cd ui
+docker build -t ui .
+cd ..
+```
+### Note
+If you get the error `zsh: command not found:` allow comments with:
+```zsh
+set -k
+```

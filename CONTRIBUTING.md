@@ -17,23 +17,3 @@ commit messages are standardized.
 1. Fork the repo and create your branch in lowercase with a descriptive name.
 2. Add some test examples.
 3. Ensure to describe your pull request.
-
-## Quickstart Local Development
-```zsh
-mkdir Kwetterr && cd Kwetterr
- 
-git clone https://github.com/kwetterr/docs
-git clone https://github.com/kwetterr/ui
-git clone https://github.com/kwetterr/user-service
-git clone https://github.com/kwetterr/friend-service
-git clone https://github.com/kwetterr/kwat-service
-```
-
-Run all microservices at once.
-```zsh
-docker-compose build
-docker-compose up
-```
-
-### Note
-For running individual services checkout their own repositories.
