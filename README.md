@@ -1,6 +1,8 @@
 ![logo](./assets/logo_full.png)
 
 
+
+<h1 align="center">Official documentation for Kwetter.</h1>
 <h3 align="center">
   <a href=""md">Contribute</a>
   <span> · </span>
@@ -8,8 +10,6 @@
   <span> · </span>
   <a href="">Documentation</a>
 </h3>
-
-Official documentation for Kwetter.
 
 ## Structure
 | Codebase                                                      |      Description          | 
