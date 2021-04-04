@@ -45,6 +45,7 @@ docker-compose up
 ## Quickstart with Kubernetes
 <b>Prerequisites</b>
 - [Kubernetes](kubernetes.io)
+- Make sure to copy `.env.example` and create `.env` with the filled in values.
 
 Build all images.
 ```zsh
