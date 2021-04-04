@@ -2,11 +2,11 @@
 
 
 <h3 align="center">
-  <a href="https://github.com/benawad/dogehouse/blob/staging/CONTRIBUTING.md">Contribute</a>
+  <a href=""md">Contribute</a>
   <span> · </span>
-  <a href="https://discord.gg/82HzQCJCDg">Community</a>
+  <a href="">Community</a>
   <span> · </span>
-  <a href="./docs/README.MD">Documentation</a>
+  <a href="">Documentation</a>
 </h3>
 
 Official documentation for Kwetter.
