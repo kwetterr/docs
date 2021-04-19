@@ -5,9 +5,9 @@ metadata:
   labels:
     run: ui-svc
 spec:
-  type: LoadBalancer
   ports:
   - port: 80
+    targetPort: 80
     protocol: TCP
   selector:
     run: ui
@@ -20,16 +20,14 @@ spec:
   selector:
     matchLabels:
       run: ui
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
         run: ui
     spec:
       containers:
-      - name: ui
-        image: ui
-        imagePullPolicy: Never
+      - name: pakketservice
+        image: fipost/ui:0.0.5.2
         ports:
         - containerPort: 80
-        
